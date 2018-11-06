@@ -1,0 +1,29 @@
+.Square {
+  flex: 1 0 30px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+}
+
+.Square > button {
+  border: 0px;
+}
+
+.Square > * {
+  flex: 1;
+  font-size: 4.5rem;
+  cursor: pointer;
+}
+
+.taken:hover {
+  background: red;
+  cursor: not-allowed;
+}
+
+.upper-divider {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.lower-divider {
+  border-radius: 0px 0px 10px 10px;
+}

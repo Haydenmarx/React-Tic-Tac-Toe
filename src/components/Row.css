@@ -1,0 +1,23 @@
+.divider-row {
+  background: black;
+  flex: 0 0 5px;
+  border-radius: 10px;
+}
+
+.row {
+  flex: 1 0 30px;
+  display: flex;
+}
+
+.upright-divider {
+  background: black;
+  flex: 0 0 5px;
+}
+
+.upper-divider {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.lower-divider {
+  border-radius: 0px 0px 10px 10px;
+}

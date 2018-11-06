@@ -1,0 +1,27 @@
+.Game {
+  display: flex;
+  flex-flow: column;
+  height: 330px;
+  width: 300px;
+  background-color: whitesmoke;
+}
+
+.banner {
+  border-bottom: 2px solid rgba(71, 69, 69, 0.186);
+  text-align: center;
+  height: 30px;
+}
+
+.banner > h2 {
+  margin: 0px;
+}
+
+.close, .quit {
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.invisible {
+  display: none;
+}
